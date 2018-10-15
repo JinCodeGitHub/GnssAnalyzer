@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="240dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_marginStart="2dp"
+    android:layout_marginLeft="2dp">
+    <TextView
+        android:id="@+id/gnss_cno"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light" />
+
+    <ImageView
+        android:id="@+id/gnss_flag"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/gnss_satellite_no"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/common_border_color"
+        android:textSize="8sp"/>
+
+</LinearLayout>
